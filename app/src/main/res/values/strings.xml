@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">EjercicioPreferences</string>
+    <string name="home_action">Home</string>
+    <string name="settings_action">Preferences</string>
+    <string name="conexion">Datos de conexion</string>
+    <string name="titulo_usuario">Usuario</string>
+    <string name="usuario">Indica tu usuario</string>
+    <string name="et_contra_titulo">Contrasena</string>
+    <string name="et_contra">Introduce el password</string>
+    <string name="servicio">Servicio</string>
+    <string name="habilitar_servicio">Habilitar servicio</string>
+    <string name="escrito_servicio">El servicio se iniciara automaticamente</string>
+    <string name="seguridad">Seguridad</string>
+    <string name="cifrado">Utilizar cifrado</string>
+    <string name="algoritmo_cifrado">Algoritmo de cifrado</string>
+    <string name="tv_usuario">Usuario:</string>
+    <string name="tv_contra">Contrasenya:</string>
+    <string name="tv_servicio">Servicio:</string>
+    <string name="tv_cifrado">Cifrado:</string>
+    <string name="icReload">Reload</string>
+
+</resources>

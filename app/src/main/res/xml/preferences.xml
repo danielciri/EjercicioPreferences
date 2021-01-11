@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/conexion">
+
+        <EditTextPreference
+            android:defaultValue="false"
+            android:key="user"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/usuario"
+            android:title="@string/titulo_usuario" />
+        <EditTextPreference
+            android:defaultValue=" "
+            android:key="password"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/et_contra"
+            android:inputType="textPassword"
+            android:title="@string/et_contra_titulo" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/servicio">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="service"
+            android:summary="@string/escrito_servicio"
+            android:title="@string/habilitar_servicio" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/seguridad">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="encryption"
+            android:title="@string/cifrado" />
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/values_encryption"
+            android:entryValues="@array/values_encryption"
+            android:key="values_encryption"
+            android:title="@string/algoritmo_cifrado" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
